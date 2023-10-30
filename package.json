@@ -1,0 +1,16 @@
+{
+  "name": "jsrundir",
+  "version": "1.0.10-0009",
+  "description": "Run and dynamically reload all scripts in a directory",
+  "main": "jsrundir.js",
+  "scripts": {
+    "start": "node jsrundir.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/puzzle-star/jsrundir.git"
+  },
+  "author": "Pedro Garcia",
+  "license": "MIT"
+}

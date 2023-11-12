@@ -311,7 +311,7 @@ module.exports = class {
 if (require.main === module) {
 	const process = require('process');
 	const targets = process.argv.slice(2);
-	const watcher = new module.exports(targets.length ? targets : __dirname);
+	const watcher = new module.exports(targets.length ? targets : '.');
 
 	const shutdown = () => {
 		watcher.stop();

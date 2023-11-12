@@ -1,6 +1,6 @@
 {
   "name": "jsrundir",
-  "version": "1.0.10-0010",
+  "version": "1.0.10",
   "description": "Run and dynamically reload all scripts in a directory",
   "main": "jsrundir.js",
   "scripts": {

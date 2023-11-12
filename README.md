@@ -7,7 +7,7 @@ This package has no dependencies, and uses the nodejs fs.watch API. Currently te
 
 > nodejs jsrundir.js _**[directories ...]**_
 
-This will watch for all _**'*.js'**_ and _**'*.json'**_ files in the directories provided as argument list, and (re)import them wvery time they are added or changed. If no argument list is provided it will watch for files in the same directory as _**jsrundir.js**_ file is located (in case it is used as a standalone file instead of a package).
+This will watch for all _**'*.js'**_ and _**'*.json'**_ files in the directories provided as argument list, and (re)import them wvery time they are added or changed. If no argument list is provided it will watch for files in the current working directory.
 
 ## API (import from other package)
 
